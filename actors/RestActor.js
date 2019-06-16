@@ -4,9 +4,6 @@ const P = require('bluebird')
 const WebSocket = require('ws')
 const { URLSearchParams, parse } = require('url')
 
-/**
- * Prime numbers REST server actor.
- */
 class RestServerActor {
   /**
    * Actor initialization hook.
